@@ -1,3 +1,7 @@
+#------------------------------------------------------------------------
+# Coursera - Exploratory Data Analysis
+# Course Project 1 - Plot 1
+#-----------------------------------------------------------------------
 setwd('c:/dev/coursera')
 
 data = read.table(file="household_power_consumption.txt",na.strings=c('?'),sep=";",header=T)
